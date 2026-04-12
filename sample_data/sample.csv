@@ -1,0 +1,301 @@
+CustomerID,Age,Gender,Income,Education,City,PurchaseAmount,ProductCategory,Rating,ChurnStatus,JoinDate,LastPurchaseDate
+C001,69.0,Female,87039.01,Graduate,Chennai,48897.74,Electronics,3.0,1,2020-12-31,2023-12-19
+C002,64.0,Male,136352.65,Post-Graduate,Ahmedabad,7981.26,Books,2.0,0,2020-04-02,2024-02-25
+C003,58.0,Female,88037.16,Post-Graduate,Mumbai,32679.35,Electronics,5.0,0,2022-09-25,2023-09-28
+C004,66.0,Male,58342.86,Graduate,Delhi,44044.31,Electronics,4.0,0,2022-04-21,2024-01-28
+C005,32.0,Female,101204.15,High School,Bangalore,23837.41,Clothing,4.0,1,2023-07-27,2024-12-05
+C006,25.0,Male,134804.22,Graduate,Chennai,32561.88,Food,5.0,0,2019-12-26,2024-08-08
+C007,32.0,Female,75283.9,Diploma,Bangalore,37819.96,Electronics,2.0,0,2021-02-13,2024-09-15
+C008,56.0,Male,114162.08,Post-Graduate,Mumbai,14433.53,Books,5.0,0,2020-09-20,2024-04-29
+C009,35.0,Male,66701.06,Graduate,Delhi,14342.23,Sports,4.0,0,2023-02-12,2023-03-22
+C010,32.0,Female,54844.1,Graduate,Chennai,3052.21,Sports,4.0,1,2022-11-11,2023-06-26
+C011,36.0,Female,118242.65,Graduate,Chennai,38459.38,Books,2.0,0,2020-08-26,2023-10-10
+C012,55.0,Male,70078.74,Graduate,Chennai,32649.71,Electronics,4.0,0,2019-09-18,2024-02-17
+C013,65.0,Male,52551.14,Graduate,Ahmedabad,11687.79,Food,5.0,1,2019-12-30,2023-05-28
+C014,53.0,Female,16093.23,High School,Mumbai,36960.46,Food,2.0,0,2023-02-01,2024-10-26
+C015,23.0,Female,59356.35,Graduate,Delhi,42531.62,Electronics,5.0,0,2019-01-04,2024-09-15
+C016,67.0,Female,99140.02,Diploma,Hyderabad,1961.18,Books,2.0,0,2022-12-08,2024-11-28
+C017,74.0,Female,130200.29,Post-Graduate,Ahmedabad,46081.4,Food,4.0,0,2022-03-19,2024-12-11
+C018,55.0,Female,34526.67,Post-Graduate,Mumbai,20952.46,Clothing,3.0,0,2021-03-12,2024-02-16
+C019,61.0,Female,76666.17,Post-Graduate,Pune,41896.48,Food,2.0,0,2023-10-09,2023-10-28
+C020,55.0,Male,19954.11,Post-Graduate,Kolkata,46702.74,Books,2.0,0,2023-04-28,2024-06-06
+C021,33.0,Female,68650.55,High School,Delhi,1913.36,Food,3.0,0,2022-03-08,2023-12-06
+C022,33.0,Female,56951.27,Diploma,Hyderabad,41826.54,Sports,4.0,0,2019-03-08,2024-12-08
+C023,51.0,Male,109402.68,Post-Graduate,Kolkata,39419.24,Electronics,5.0,0,2020-01-08,2023-09-01
+C024,,Female,17071.93,Diploma,Ahmedabad,9396.95,Sports,1.0,0,2022-05-18,2023-02-20
+C025,30.0,Male,132575.95,Graduate,Delhi,37475.26,Food,3.0,0,2020-10-13,2024-05-01
+C026,54.0,Male,123527.27,Diploma,Delhi,43627.31,Clothing,1.0,1,2023-07-15,2024-04-15
+C027,63.0,Female,117667.47,Graduate,Mumbai,14544.4,Books,4.0,0,2022-06-06,2024-01-17
+C028,58.0,Male,38650.75,Post-Graduate,Delhi,1969.56,Clothing,2.0,0,2020-03-28,2023-01-21
+C029,56.0,Male,92793.34,Post-Graduate,Kolkata,14989.77,Clothing,2.0,1,2022-08-02,2023-12-12
+C030,30.0,Other,45349.28,Post-Graduate,Ahmedabad,30178.87,Books,4.0,1,2022-03-04,2023-11-07
+C031,37.0,Female,66484.18,High School,Pune,46429.9,Electronics,5.0,1,2019-08-02,2023-11-15
+C032,64.0,Female,76672.83,Post-Graduate,Ahmedabad,16818.6,Sports,5.0,0,2021-10-13,2023-10-15
+C033,35.0,Male,53883.93,Graduate,Ahmedabad,22772.02,Food,4.0,1,2019-10-16,2024-05-18
+C034,,Female,106915.44,Graduate,Kolkata,32101.49,Clothing,4.0,0,2020-11-09,2024-12-13
+C035,66.0,Female,133322.18,Post-Graduate,Kolkata,26263.49,Books,4.0,0,2023-03-07,2023-06-15
+C036,42.0,Female,27190.89,Graduate,Hyderabad,44474.07,Clothing,4.0,0,2019-06-09,2023-08-22
+C037,69.0,Male,45334.59,Graduate,Chennai,6796.58,Sports,4.0,0,2020-05-02,2023-05-18
+C038,61.0,Male,332812.18,Graduate,Chennai,25260.21,Electronics,4.0,1,2020-12-11,2023-11-04
+C039,71.0,Male,42107.3,Post-Graduate,Delhi,13714.57,Sports,2.0,0,2020-10-16,2024-03-29
+C040,22.0,Female,145596.85,Diploma,Kolkata,40459.81,Books,1.0,0,2019-12-10,2023-11-25
+C041,56.0,Female,78274.23,Graduate,Kolkata,16601.14,Electronics,5.0,0,2022-07-26,2023-10-03
+C042,26.0,Female,50391.79,Post-Graduate,Delhi,36582.85,Food,1.0,0,2023-12-19,2024-12-26
+C043,62.0,Female,55786.43,Graduate,Chennai,32449.44,Clothing,2.0,1,2019-07-01,2024-03-02
+C044,99.0,Female,87568.79,Post-Graduate,Delhi,35958.05,Food,3.0,0,2023-08-10,2024-06-14
+C045,55.0,Male,117649.91,Diploma,Ahmedabad,802.8,Books,1.0,0,2022-12-22,2024-10-23
+C046,47.0,Female,99617.89,High School,Pune,16921.9,Books,3.0,1,2022-10-04,2023-04-02
+C047,73.0,Female,138313.07,Graduate,Delhi,14821.71,Electronics,2.0,1,2022-08-01,2023-07-12
+C048,35.0,Male,64390.77,Diploma,Bangalore,33752.62,Sports,5.0,0,2023-02-02,2024-04-29
+C049,56.0,Female,35786.1,Post-Graduate,Chennai,9738.75,Books,3.0,0,2023-12-21,2024-04-07
+C050,31.0,Female,80137.44,Graduate,Hyderabad,30586.63,Clothing,2.0,1,2020-11-18,2024-02-21
+C051,61.0,Male,121462.42,Post-Graduate,Bangalore,31972.42,Sports,4.0,0,2021-07-03,2024-05-11
+C052,32.0,Male,77366.81,Post-Graduate,Ahmedabad,20333.97,Sports,5.0,1,2019-01-24,2024-06-12
+C053,32.0,Male,30649.42,Diploma,Delhi,21442.39,Sports,4.0,0,2020-06-27,2024-01-18
+C054,45.0,Female,127055.07,Post-Graduate,Ahmedabad,16463.54,Sports,5.0,0,2020-03-05,2023-02-27
+C055,59.0,Female,40667.82,High School,Mumbai,20101.58,Clothing,5.0,0,2020-05-26,2024-06-11
+C056,32.0,Male,149915.43,High School,Bangalore,4859.72,Sports,1.0,1,2022-11-20,2023-06-12
+C057,28.0,Female,95915.98,Diploma,Kolkata,49086.09,Books,5.0,0,2019-05-19,2023-03-09
+C058,36.0,Male,15346.31,Graduate,Bangalore,23924.96,Food,1.0,1,2020-12-18,2023-11-15
+C059,49.0,Female,145822.46,Post-Graduate,Bangalore,46797.69,Clothing,3.0,0,2020-06-09,2024-12-27
+C060,18.0,Female,26888.07,Graduate,Bangalore,440.82,Sports,5.0,1,2023-05-31,2024-10-30
+C061,25.0,Male,28461.08,High School,Hyderabad,19240.36,Books,3.0,1,2019-08-10,2024-02-18
+C062,28.0,Female,34460.98,Diploma,Delhi,22392.1,Clothing,5.0,0,2023-01-15,2023-06-02
+C063,23.0,Male,31684.48,Post-Graduate,Chennai,13423.02,Food,1.0,0,2019-01-03,2024-06-20
+C064,67.0,Male,28117.13,Post-Graduate,Mumbai,16548.3,Books,4.0,0,2019-04-09,2024-08-05
+C065,23.0,Female,149450.2,Graduate,Bangalore,29164.79,Electronics,5.0,1,2021-03-01,2023-01-30
+C066,19.0,Male,95734.95,Diploma,Hyderabad,28686.58,Sports,2.0,0,2021-06-16,2023-06-27
+C067,23.0,Female,292348.22,Graduate,Delhi,13151.5,Electronics,4.0,1,2023-02-09,2023-08-25
+C068,23.0,Female,65148.94,High School,Pune,18041.65,Clothing,1.0,0,2021-05-09,2023-07-25
+C069,18.0,Male,29398.19,High School,Hyderabad,11891.5,Electronics,,0,2019-12-07,2023-03-01
+C070,32.0,Female,19504.21,Graduate,Hyderabad,33422.53,Sports,3.0,0,2023-12-17,2024-04-22
+C071,39.0,Female,94261.6,Post-Graduate,Pune,23323.21,Sports,1.0,0,2021-04-27,2023-02-03
+C072,34.0,Male,129175.51,Graduate,Delhi,8069.87,Sports,4.0,0,2021-10-06,2024-04-12
+C073,51.0,Male,123571.39,Graduate,Hyderabad,34335.07,Clothing,3.0,0,2023-12-11,2024-01-05
+C074,59.0,Female,46698.0,Post-Graduate,Pune,46162.99,Food,3.0,0,2021-02-14,2024-01-05
+C075,50.0,Male,50860.38,Graduate,Pune,44401.29,Food,1.0,0,2020-12-20,2024-12-22
+C076,45.0,Male,27201.21,Graduate,Hyderabad,38515.07,Sports,4.0,1,2022-01-23,2023-07-23
+C077,41.0,Female,115749.49,Diploma,Chennai,34545.49,Books,1.0,1,2021-02-07,2023-10-08
+C078,58.0,Male,137799.75,Diploma,Delhi,31971.7,Food,2.0,1,2019-07-27,2024-01-13
+C079,67.0,Male,18907.88,Post-Graduate,Ahmedabad,47037.72,Clothing,2.0,0,2023-08-25,2024-10-19
+C080,53.0,Male,32740.59,Graduate,Delhi,18440.44,Books,5.0,0,2021-09-08,2024-04-20
+C081,41.0,Male,46065.98,Graduate,Ahmedabad,11120.38,Books,3.0,0,2023-06-04,2024-11-02
+C082,28.0,Male,102433.07,High School,Hyderabad,47872.29,Books,5.0,0,2023-11-05,2024-05-26
+C083,26.0,Male,30676.26,Diploma,Chennai,23961.28,Electronics,4.0,0,2022-03-29,2024-10-12
+C084,32.0,Male,33465.2,Graduate,Mumbai,22803.44,Books,2.0,1,2022-08-26,2023-05-07
+C085,101.0,Male,47238.75,High School,Delhi,49443.01,Clothing,5.0,1,2023-04-02,2023-05-03
+C086,,Male,110230.57,High School,Ahmedabad,18743.88,Electronics,2.0,0,2022-11-08,2023-09-05
+C087,50.0,Female,22576.1,Graduate,Chennai,35126.84,Clothing,2.0,0,2020-04-06,2024-01-17
+C088,70.0,Male,142853.2,High School,Kolkata,45648.56,Electronics,2.0,1,2019-11-30,2024-05-15
+C089,48.0,Female,137909.63,Graduate,Hyderabad,37891.79,Books,1.0,1,2021-07-13,2024-08-31
+C090,35.0,Female,78749.67,Post-Graduate,Mumbai,40119.55,Books,5.0,1,2019-05-31,2024-04-01
+C091,20.0,Male,126272.44,Post-Graduate,Kolkata,41297.62,Food,3.0,1,2023-06-25,2023-12-23
+C092,49.0,Female,57953.8,Graduate,Hyderabad,38116.8,Sports,5.0,0,2023-09-29,2024-12-17
+C093,38.0,Female,98638.83,Graduate,Hyderabad,34049.06,Clothing,3.0,1,2019-03-10,2024-04-30
+C094,66.0,Male,51052.59,High School,Delhi,29831.14,Books,5.0,0,2020-08-26,2024-08-23
+C095,45.0,Female,47966.65,Diploma,Hyderabad,39389.8,Books,5.0,1,2019-02-11,2024-07-18
+C096,18.0,Male,118019.72,Diploma,Ahmedabad,26322.78,Food,2.0,0,2020-10-14,2023-12-25
+C097,22.0,Male,64256.27,Diploma,Chennai,26455.84,Clothing,3.0,0,2020-06-18,2023-12-19
+C098,34.0,Female,32043.25,Graduate,Ahmedabad,18153.06,Food,3.0,0,2019-08-03,2023-06-17
+C099,52.0,Female,73844.47,High School,Mumbai,45870.51,Clothing,3.0,0,2019-06-01,2023-09-22
+C100,35.0,Female,63459.49,Post-Graduate,Pune,5699.22,Electronics,5.0,0,2020-12-01,2024-12-06
+C101,22.0,Female,117002.94,Graduate,Mumbai,41455.83,Food,3.0,0,2019-12-15,2023-04-03
+C102,73.0,Female,73142.72,Graduate,Ahmedabad,45154.12,Clothing,5.0,1,2023-12-24,2024-05-17
+C103,27.0,Female,29120.98,Diploma,Pune,10187.62,Books,1.0,0,2021-02-07,2023-01-29
+C104,74.0,Female,124923.07,Graduate,Chennai,26879.34,Clothing,2.0,1,2019-11-26,2024-01-31
+C105,117.0,Male,35534.22,High School,Delhi,8310.4,Clothing,4.0,0,2023-02-08,2023-03-30
+C106,45.0,Female,138396.61,Graduate,Hyderabad,42738.85,Electronics,1.0,0,2019-06-03,2023-06-16
+C107,60.0,Male,108192.32,Diploma,Hyderabad,22147.84,Clothing,3.0,1,2022-01-25,2024-08-08
+C108,34.0,Female,97361.1,Graduate,Mumbai,34046.73,Clothing,2.0,0,2019-07-10,2023-08-08
+C109,67.0,Female,298238.63,Graduate,Ahmedabad,35874.21,Books,2.0,1,2020-11-23,2023-08-15
+C110,41.0,Female,18897.37,High School,Hyderabad,24492.52,Electronics,2.0,1,2022-05-01,2024-10-24
+C111,73.0,Female,77809.19,Post-Graduate,Kolkata,44954.58,Clothing,2.0,0,2022-06-10,2023-08-19
+C112,58.0,Female,58790.58,Post-Graduate,Chennai,22329.59,Clothing,3.0,0,2021-09-15,2024-11-24
+C113,103.0,Other,94621.59,High School,Delhi,2876.23,Electronics,2.0,0,2022-12-13,2023-07-31
+C114,33.0,Female,70126.99,Post-Graduate,Pune,6684.02,Sports,4.0,0,2019-03-05,2023-10-03
+C115,23.0,Female,53830.27,High School,Bangalore,20829.69,Food,4.0,1,2021-06-02,2024-10-29
+C116,24.0,Female,99055.57,Diploma,Bangalore,28239.17,Books,2.0,0,2022-08-31,2024-02-24
+C117,42.0,Female,54942.77,Post-Graduate,Kolkata,27983.98,Electronics,5.0,1,2019-12-04,2024-06-09
+C118,24.0,Male,65086.55,Post-Graduate,Delhi,33671.11,Electronics,3.0,0,2022-05-28,2023-01-21
+C119,71.0,Male,109645.42,Graduate,Bangalore,15477.66,Food,4.0,1,2023-12-28,2024-12-11
+C120,90.0,Female,288101.46,Graduate,Bangalore,1186.35,Food,4.0,0,2021-06-08,2023-01-10
+C121,59.0,Male,142465.36,High School,Chennai,12797.42,Food,4.0,0,2019-11-18,2024-04-30
+C122,70.0,Male,85060.12,Post-Graduate,Delhi,250.47,Electronics,1.0,0,2019-04-20,2023-05-16
+C123,35.0,Male,119725.03,Diploma,Pune,10973.28,Electronics,1.0,0,2019-07-27,2024-10-24
+C124,22.0,Male,148332.98,High School,Chennai,3744.17,Food,4.0,0,2020-11-09,2023-06-27
+C125,40.0,Male,88790.75,Graduate,Ahmedabad,21242.5,Food,5.0,0,2020-02-25,2024-09-07
+C126,50.0,Female,103022.57,Graduate,Chennai,35049.21,Books,3.0,0,2020-01-25,2023-01-09
+C127,36.0,Male,106030.28,High School,Bangalore,27104.06,Sports,3.0,0,2021-04-18,2023-08-18
+C128,45.0,Female,59280.85,Diploma,Pune,3106.76,Electronics,4.0,0,2022-11-28,2023-09-16
+C129,21.0,Male,127433.25,Post-Graduate,Hyderabad,44721.5,Food,4.0,1,2022-02-08,2024-09-14
+C130,73.0,Female,132364.61,High School,Mumbai,49308.25,Books,3.0,1,2023-01-18,2023-11-26
+C131,52.0,Male,50714.87,High School,Delhi,23656.35,Books,5.0,0,2023-02-03,2024-11-22
+C132,65.0,Female,110025.26,Graduate,Mumbai,14425.83,Food,1.0,1,2022-01-11,2023-10-09
+C133,58.0,Male,145251.3,Graduate,Bangalore,9081.07,Sports,1.0,0,2020-06-27,2024-03-09
+C134,21.0,Female,84989.32,Diploma,Delhi,6857.9,Clothing,4.0,0,2022-09-14,2024-01-21
+C135,56.0,Male,20023.64,High School,Mumbai,32112.1,Food,3.0,0,2020-07-30,2023-12-24
+C136,52.0,Male,140908.16,Diploma,Ahmedabad,36491.55,Books,1.0,1,2020-09-01,2024-04-15
+C137,25.0,Female,106303.7,Graduate,Pune,48192.75,Electronics,5.0,0,2020-05-01,2023-09-16
+C138,32.0,Male,146436.38,High School,Bangalore,18785.6,Clothing,4.0,1,2019-07-16,2023-08-12
+C139,39.0,Male,104448.78,Post-Graduate,Ahmedabad,44577.55,Clothing,2.0,0,2019-04-12,2024-04-22
+C140,59.0,Male,140935.05,Post-Graduate,Ahmedabad,22482.0,Electronics,4.0,0,2021-03-15,2023-11-06
+C141,74.0,Female,66643.48,High School,Pune,45864.04,Electronics,2.0,0,2022-03-16,2024-11-24
+C142,73.0,Female,36711.36,High School,Ahmedabad,18937.07,Clothing,4.0,0,2022-01-30,2024-06-17
+C143,24.0,Male,77042.02,Post-Graduate,Kolkata,4104.47,Clothing,3.0,0,2023-09-17,2024-11-12
+C144,26.0,Male,87897.51,Post-Graduate,Delhi,48210.8,Books,3.0,0,2021-10-02,2024-09-30
+C145,71.0,Male,55385.82,Graduate,Delhi,43740.23,Clothing,3.0,1,2019-11-11,2024-02-11
+C146,74.0,Female,133914.29,Graduate,Ahmedabad,6736.19,Sports,3.0,0,2019-04-22,2024-08-21
+C147,65.0,Male,82296.57,Post-Graduate,Bangalore,43028.3,Books,5.0,0,2021-01-08,2023-04-15
+C148,19.0,Male,37213.5,Diploma,Ahmedabad,6019.8,Food,5.0,1,2019-01-08,2023-01-08
+C149,62.0,Male,,Graduate,Bangalore,49643.05,Books,2.0,0,2021-05-25,2024-06-07
+C150,73.0,Female,30317.25,Post-Graduate,Mumbai,19713.63,Food,5.0,1,2019-06-29,2024-11-09
+C151,55.0,Other,82742.29,Graduate,Bangalore,6454.62,Electronics,4.0,0,2020-08-26,2024-01-19
+C152,30.0,Female,102647.33,Diploma,Bangalore,48938.35,Electronics,3.0,1,2023-08-15,2024-05-28
+C153,47.0,Female,,High School,Delhi,41757.6,Clothing,1.0,0,2022-09-17,2024-10-24
+C154,43.0,Male,101117.13,Post-Graduate,Hyderabad,37833.35,Sports,1.0,0,2022-07-04,2024-08-31
+C155,22.0,Male,87925.99,Graduate,Mumbai,48926.69,Clothing,1.0,1,2022-05-14,2024-09-15
+C156,50.0,Female,25101.81,Graduate,Chennai,23203.89,Sports,4.0,0,2021-09-10,2023-10-17
+C157,,Female,115598.24,Graduate,Hyderabad,35982.79,Food,1.0,1,2020-02-13,2023-11-02
+C158,63.0,Female,28549.22,Post-Graduate,Pune,21263.99,Food,1.0,1,2019-07-18,2024-12-01
+C159,59.0,Female,45904.8,Post-Graduate,Kolkata,19025.9,Sports,2.0,0,2019-02-22,2023-04-21
+C160,47.0,Male,44565.61,High School,Chennai,11560.24,Books,4.0,0,2020-02-28,2024-05-08
+C161,60.0,Female,37459.25,Graduate,Mumbai,23085.2,Food,4.0,0,2019-12-16,2023-03-07
+C162,74.0,Male,48834.62,Diploma,Mumbai,7840.56,Clothing,1.0,1,2022-07-31,2023-12-11
+C163,41.0,Female,136896.21,High School,Delhi,9505.17,Books,4.0,0,2020-08-20,2023-10-11
+C164,47.0,Female,74285.72,Diploma,Chennai,43772.89,Books,2.0,1,2019-06-17,2024-10-17
+C165,29.0,Male,56052.31,Diploma,Chennai,38297.95,Food,2.0,1,2021-08-27,2023-11-29
+C166,42.0,Female,122004.86,Post-Graduate,Bangalore,1707.64,Electronics,3.0,0,2023-09-25,2024-12-09
+C167,56.0,Male,59107.08,Graduate,Mumbai,33043.86,Clothing,2.0,0,2019-08-25,2023-10-11
+C168,18.0,Female,125891.87,Graduate,Mumbai,30784.67,Clothing,3.0,0,2020-09-23,2023-09-25
+C169,38.0,Female,54401.31,Graduate,Hyderabad,46818.27,Books,1.0,0,2023-05-27,2024-03-27
+C170,40.0,Female,131762.93,Graduate,Chennai,44463.16,Books,3.0,1,2021-03-25,2023-07-12
+C171,38.0,Female,106102.93,Graduate,Chennai,12109.25,Sports,3.0,0,2021-08-22,2023-06-03
+C172,42.0,Male,28568.48,Graduate,Bangalore,3457.82,Books,1.0,0,2021-09-28,2024-06-13
+C173,52.0,Female,131784.1,Graduate,Bangalore,29737.81,Clothing,,1,2022-09-15,2023-09-04
+C174,67.0,Female,80436.09,High School,Hyderabad,22377.41,Clothing,2.0,0,2020-06-26,2023-02-28
+C175,41.0,Male,69338.65,Graduate,Pune,33633.98,Books,1.0,0,2019-07-06,2024-09-06
+C176,56.0,Female,116116.57,Graduate,Hyderabad,43623.4,Clothing,,0,2022-08-07,2024-02-18
+C177,118.0,Male,120072.07,Graduate,Hyderabad,12312.23,Sports,3.0,0,2022-01-19,2024-11-07
+C178,19.0,Male,105023.5,Diploma,Delhi,2307.41,Electronics,2.0,1,2021-03-04,2023-11-24
+C179,33.0,Female,16846.05,Post-Graduate,Mumbai,22004.24,Sports,4.0,0,2020-01-14,2024-11-28
+C180,53.0,Male,66438.44,High School,Chennai,27034.01,Electronics,1.0,0,2021-01-29,2023-05-24
+C181,30.0,Male,69061.05,High School,Ahmedabad,37743.85,Books,1.0,1,2023-12-19,2024-12-22
+C182,66.0,Female,99706.84,Post-Graduate,Hyderabad,38825.57,Electronics,1.0,0,2021-02-20,2023-01-27
+C183,61.0,Male,46345.44,Post-Graduate,Chennai,7092.77,Books,2.0,1,2021-01-26,2024-11-02
+C184,46.0,Male,70572.09,Diploma,Delhi,49674.82,Sports,4.0,0,2020-01-18,2024-05-24
+C185,62.0,Male,39307.68,Graduate,Hyderabad,11784.66,Clothing,1.0,0,2021-07-01,2023-10-30
+C186,34.0,Female,90237.2,Graduate,Bangalore,45828.21,Books,2.0,1,2019-04-02,2023-09-23
+C187,64.0,Female,107393.94,Graduate,Mumbai,28847.91,Sports,5.0,0,2020-06-23,2024-03-04
+C188,66.0,Female,53796.17,Diploma,Mumbai,28915.99,Electronics,2.0,1,2021-06-19,2024-02-19
+C189,63.0,Female,121179.23,Post-Graduate,Kolkata,38649.66,Sports,5.0,1,2021-08-10,2024-02-02
+C190,28.0,Female,63392.55,Post-Graduate,Pune,40937.29,Books,4.0,0,2020-06-23,2023-02-06
+C191,42.0,Male,21121.82,High School,Hyderabad,11921.51,Books,1.0,1,2020-04-08,2024-08-20
+C192,23.0,Female,64759.06,Graduate,Delhi,43825.29,Electronics,1.0,0,2023-09-11,2024-09-07
+C193,52.0,Female,68660.25,Graduate,Ahmedabad,49286.21,Clothing,3.0,1,2020-07-04,2024-08-08
+C194,31.0,Male,70454.64,Graduate,Delhi,26110.43,Clothing,1.0,0,2022-03-01,2023-07-14
+C195,47.0,Male,104092.0,Post-Graduate,Ahmedabad,20736.65,Electronics,4.0,1,2019-05-07,2023-12-18
+C196,41.0,Female,68267.57,Post-Graduate,Chennai,13830.18,Food,2.0,0,2019-11-06,2024-12-31
+C197,25.0,Male,121973.14,Graduate,Bangalore,27880.23,Clothing,4.0,0,2023-03-21,2023-11-03
+C198,28.0,Male,50778.08,High School,Hyderabad,29624.19,Food,1.0,0,2022-11-27,2024-12-03
+C199,58.0,Female,100779.53,Post-Graduate,Pune,36787.08,Food,2.0,0,2022-09-28,2024-07-01
+C200,43.0,Female,122907.35,Post-Graduate,Hyderabad,8839.15,Food,4.0,1,2019-07-18,2024-10-15
+C201,61.0,Female,17961.85,Post-Graduate,Hyderabad,33969.63,Food,1.0,0,2019-06-25,2024-05-02
+C202,53.0,Male,145322.73,Post-Graduate,Hyderabad,27836.95,Sports,1.0,0,2022-09-30,2024-11-18
+C203,46.0,Female,145944.17,High School,Bangalore,2439.52,Sports,1.0,0,2020-12-05,2024-01-03
+C204,52.0,Male,80872.91,Graduate,Hyderabad,17286.3,Food,3.0,0,2023-07-14,2024-12-14
+C205,27.0,Female,143808.85,Graduate,Bangalore,32201.47,Electronics,3.0,0,2022-01-13,2023-11-04
+C206,52.0,Male,22317.55,Graduate,Mumbai,19119.62,Sports,3.0,0,2021-04-27,2023-06-24
+C207,59.0,Male,51791.19,Post-Graduate,Chennai,26270.71,Books,2.0,0,2023-03-30,2024-10-21
+C208,20.0,Male,71092.92,Graduate,Mumbai,34845.79,Sports,4.0,1,2022-04-22,2023-07-05
+C209,68.0,Female,17800.64,High School,Bangalore,20472.13,Food,2.0,0,2020-04-10,2023-10-28
+C210,24.0,Female,25842.57,Post-Graduate,Chennai,15064.44,Sports,2.0,0,2022-02-07,2023-04-10
+C211,34.0,Female,100053.01,Graduate,Ahmedabad,9275.56,Electronics,1.0,0,2019-05-05,2024-04-27
+C212,20.0,Female,139360.99,Diploma,Pune,26942.62,Clothing,5.0,0,2023-09-18,2023-11-22
+C213,45.0,Male,95330.95,Post-Graduate,Kolkata,12124.31,Books,5.0,0,2021-03-03,2023-09-22
+C214,31.0,Male,113016.88,High School,Hyderabad,11344.69,Electronics,1.0,1,2023-08-04,2024-02-07
+C215,43.0,Male,70626.99,Post-Graduate,Chennai,42891.31,Books,5.0,0,2021-12-06,2024-11-27
+C216,28.0,Female,147404.58,Graduate,Kolkata,7303.15,Food,2.0,1,2021-05-07,2023-12-10
+C217,69.0,Male,20322.05,Diploma,Ahmedabad,23204.96,Books,4.0,0,2022-01-01,2024-11-01
+C218,74.0,Male,55427.92,Graduate,Hyderabad,2975.43,Books,3.0,0,2022-11-08,2023-04-02
+C219,56.0,Female,60883.16,Graduate,Delhi,20692.61,Sports,2.0,0,2023-11-11,2024-03-03
+C220,69.0,Male,40732.4,Graduate,Mumbai,20883.74,Clothing,2.0,1,2021-08-30,2023-12-30
+C221,67.0,Male,68433.78,High School,Bangalore,26546.59,Books,4.0,0,2022-03-18,2023-08-17
+C222,65.0,Male,65923.36,Graduate,Hyderabad,19482.11,Electronics,5.0,1,2023-12-11,2024-12-26
+C223,75.0,Male,34201.9,Graduate,Kolkata,12824.28,Electronics,,0,2020-04-27,2023-11-11
+C224,49.0,Male,78224.74,Graduate,Pune,16580.12,Clothing,2.0,0,2021-09-02,2024-03-06
+C225,60.0,Female,98357.03,High School,Bangalore,4045.61,Books,1.0,0,2020-09-04,2023-12-06
+C226,52.0,Male,131810.18,Graduate,Pune,22544.36,Food,1.0,0,2019-06-11,2024-01-16
+C227,26.0,Female,32686.79,Post-Graduate,Delhi,18616.77,Books,2.0,0,2021-03-19,2023-09-24
+C228,31.0,Male,66466.2,High School,Hyderabad,26828.21,Clothing,1.0,0,2023-10-15,2024-08-09
+C229,25.0,Other,50701.91,Graduate,Kolkata,41487.37,Clothing,5.0,0,2023-01-02,2023-10-30
+C230,33.0,Female,137933.29,Graduate,Delhi,2671.68,Food,4.0,1,2019-03-13,2024-04-19
+C231,23.0,Male,142606.81,Graduate,Bangalore,18920.68,Books,3.0,0,2021-10-25,2023-05-01
+C232,25.0,Male,97281.39,Post-Graduate,Bangalore,30287.98,Books,4.0,1,2022-03-15,2024-04-26
+C233,54.0,Male,30494.8,High School,Bangalore,2073.42,Electronics,3.0,0,2021-11-24,2023-02-24
+C234,22.0,Male,,High School,Delhi,3731.94,Sports,2.0,0,2023-06-28,2023-09-08
+C235,66.0,Female,45457.98,Diploma,Hyderabad,40252.07,Food,2.0,0,2022-03-16,2024-04-28
+C236,75.0,Male,106044.84,Post-Graduate,Hyderabad,29420.43,Clothing,3.0,0,2022-10-19,2023-07-19
+C237,53.0,Female,93289.66,Graduate,Bangalore,33605.38,Sports,1.0,0,2022-06-24,2024-05-27
+C238,27.0,Female,74097.45,Graduate,Pune,10929.12,Electronics,2.0,0,2019-10-29,2023-05-03
+C239,37.0,Female,120505.91,High School,Kolkata,10523.57,Sports,5.0,0,2019-09-04,2024-11-28
+C240,64.0,Male,78851.79,Diploma,Kolkata,45360.94,Books,5.0,0,2023-03-31,2024-04-24
+C241,64.0,Female,102440.81,Graduate,Hyderabad,15229.08,Clothing,5.0,1,2021-07-08,2024-06-26
+C242,42.0,Male,24971.36,Graduate,Hyderabad,45458.81,Clothing,5.0,1,2019-12-21,2023-11-02
+C243,52.0,Female,128059.25,High School,Ahmedabad,10669.21,Books,3.0,1,2019-12-09,2024-02-28
+C244,73.0,Female,132503.59,Diploma,Bangalore,9582.18,Food,1.0,1,2020-03-09,2023-02-25
+C245,62.0,Female,109025.34,Graduate,Bangalore,37099.61,Clothing,3.0,0,2023-07-14,2023-12-15
+C246,28.0,Other,93726.21,Graduate,Ahmedabad,37369.27,Electronics,2.0,1,2020-01-30,2023-05-21
+C247,28.0,Female,135072.09,Graduate,Bangalore,37741.1,Books,5.0,0,2019-09-16,2023-07-25
+C248,37.0,Male,148435.89,High School,Hyderabad,45730.62,Food,5.0,1,2019-03-29,2023-12-17
+C249,73.0,Male,119311.14,Post-Graduate,Hyderabad,34811.75,Electronics,5.0,1,2021-05-17,2024-02-24
+C250,60.0,Male,143166.4,Graduate,Kolkata,35218.05,Electronics,2.0,0,2019-06-10,2024-08-06
+C251,107.0,Female,18491.76,Post-Graduate,Pune,19891.94,Books,,0,2022-10-31,2024-04-13
+C252,75.0,Male,116810.45,Graduate,Kolkata,12042.61,Electronics,3.0,0,2021-06-10,2023-05-27
+C253,62.0,Male,25165.41,Diploma,Pune,16148.59,Clothing,1.0,1,2020-02-18,2023-11-20
+C254,55.0,Male,74700.97,Graduate,Chennai,14224.65,Electronics,2.0,0,2023-08-12,2024-10-26
+C255,19.0,Male,325054.13,High School,Bangalore,23365.9,Sports,4.0,0,2022-07-08,2023-07-04
+C256,64.0,Female,46693.98,Graduate,Ahmedabad,32471.19,Sports,4.0,1,2019-10-30,2023-03-24
+C257,64.0,Female,117987.81,High School,Chennai,15490.27,Books,1.0,0,2023-09-05,2024-05-11
+C258,,Female,30751.25,Post-Graduate,Chennai,18046.27,Food,2.0,0,2022-05-03,2023-12-07
+C259,22.0,Male,121818.45,Post-Graduate,Ahmedabad,44152.32,Food,4.0,0,2020-06-12,2024-10-08
+C260,58.0,Male,15155.39,Post-Graduate,Ahmedabad,23353.6,Clothing,5.0,1,2020-10-16,2023-07-01
+C261,72.0,Male,35113.57,Diploma,Pune,40160.55,Food,1.0,1,2023-01-29,2023-12-15
+C262,71.0,Male,81888.32,Graduate,Kolkata,36148.44,Food,5.0,1,2023-07-12,2023-09-09
+C263,31.0,Male,128589.77,Graduate,Kolkata,38105.29,Books,1.0,1,2019-05-18,2023-01-05
+C264,120.0,Other,130561.75,High School,Bangalore,16079.64,Books,3.0,0,2019-06-28,2024-04-07
+C265,53.0,Male,126365.17,Graduate,Bangalore,10236.06,Electronics,3.0,0,2021-03-05,2023-10-08
+C266,39.0,Female,74675.53,High School,Hyderabad,15714.81,Books,2.0,0,2022-02-13,2023-08-03
+C267,51.0,Male,,Graduate,Ahmedabad,2381.2,Clothing,4.0,0,2021-03-24,2023-06-22
+C268,18.0,Male,308990.15,Graduate,Kolkata,43217.83,Books,5.0,0,2022-02-04,2024-08-13
+C269,46.0,Female,,Post-Graduate,Chennai,37088.49,Sports,4.0,0,2020-10-29,2023-06-12
+C270,69.0,Female,45710.65,Post-Graduate,Hyderabad,909.37,Food,3.0,0,2023-10-21,2024-06-27
+C271,74.0,Female,80386.09,Diploma,Hyderabad,27710.25,Food,5.0,0,2020-07-19,2023-04-01
+C272,71.0,Male,121341.85,Graduate,Ahmedabad,29243.19,Electronics,2.0,0,2021-11-30,2023-05-13
+C273,32.0,Female,24424.36,Graduate,Bangalore,36028.6,Clothing,4.0,1,2021-07-27,2024-09-21
+C274,57.0,Female,131169.78,Graduate,Chennai,14830.1,Clothing,1.0,0,2023-11-24,2024-07-03
+C275,38.0,Male,33428.63,Graduate,Pune,9889.97,Books,1.0,0,2019-01-26,2024-10-10
+C276,41.0,Male,119293.97,Graduate,Delhi,11577.93,Books,5.0,1,2023-05-30,2024-08-11
+C277,20.0,Female,132396.23,Post-Graduate,Mumbai,28532.5,Food,1.0,1,2022-12-05,2024-02-18
+C278,31.0,Male,147075.59,High School,Ahmedabad,12361.93,Books,1.0,0,2022-06-30,2024-03-15
+C279,20.0,Female,51753.24,Graduate,Mumbai,27577.06,Food,3.0,0,2022-04-18,2024-05-03
+C280,72.0,Female,41705.59,Post-Graduate,Ahmedabad,47178.88,Clothing,2.0,1,2021-12-06,2024-01-28
+C281,61.0,Female,130345.67,Post-Graduate,Kolkata,16944.46,Electronics,1.0,0,2023-05-20,2023-05-24
+C282,34.0,Male,149587.64,High School,Kolkata,38191.7,Electronics,1.0,0,2021-05-09,2023-02-08
+C283,44.0,Female,118608.55,Diploma,Delhi,24482.19,Books,4.0,0,2019-08-19,2024-06-30
+C284,24.0,Male,49073.84,Post-Graduate,Pune,36205.54,Food,5.0,0,2021-04-28,2023-07-24
+C285,63.0,Female,71091.2,Post-Graduate,Chennai,37005.75,Sports,3.0,0,2019-11-03,2024-01-18
+C286,21.0,Male,59819.29,Post-Graduate,Hyderabad,23095.37,Clothing,5.0,1,2019-10-31,2023-01-15
+C287,50.0,Female,144873.92,High School,Chennai,36665.33,Clothing,4.0,0,2022-03-06,2023-11-26
+C288,58.0,Male,96501.34,Graduate,Mumbai,17673.59,Clothing,4.0,0,2022-04-19,2024-06-27
+C289,51.0,Other,107043.05,High School,Kolkata,7083.93,Electronics,4.0,0,2022-04-08,2023-07-15
+C290,27.0,Male,78649.38,Post-Graduate,Delhi,27372.66,Clothing,1.0,0,2023-04-03,2023-04-21
+C291,39.0,Female,107223.17,Post-Graduate,Mumbai,9283.98,Food,5.0,1,2019-07-25,2024-11-23
+C292,66.0,Female,78451.4,High School,Ahmedabad,44479.29,Electronics,5.0,1,2019-08-05,2023-01-05
+C293,40.0,Male,38634.36,Graduate,Delhi,49517.14,Books,5.0,0,2022-02-26,2024-10-03
+C294,66.0,Male,59879.39,Graduate,Delhi,47866.12,Sports,2.0,0,2023-05-16,2024-01-25
+C295,22.0,Male,67467.19,High School,Mumbai,26244.83,Sports,3.0,0,2019-07-26,2023-08-20
+C296,21.0,Female,123260.81,High School,Chennai,41969.52,Food,1.0,0,2023-05-29,2024-05-15
+C297,54.0,Male,51068.31,Post-Graduate,Bangalore,3809.09,Books,3.0,1,2020-08-08,2023-11-16
+C298,32.0,Male,82185.08,Graduate,Kolkata,40918.0,Clothing,1.0,0,2023-11-12,2024-01-17
+C299,63.0,Female,23051.14,Graduate,Delhi,2520.87,Clothing,5.0,1,2022-01-01,2023-04-16
+C300,53.0,Male,129080.32,Post-Graduate,Ahmedabad,418.55,Electronics,2.0,0,2023-12-08,2024-06-21
