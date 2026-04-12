@@ -13,6 +13,12 @@
   <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
 </p>
 
+<p align="center">
+  <a href="http://localhost:8501">
+    <img src="https://img.shields.io/badge/🔴_Live_Demo-Access_Dashboard-FF4B4B?style=for-the-badge" alt="Live Demo">
+  </a>
+</p>
+
 ---
 
 ## 🚀 Overview
