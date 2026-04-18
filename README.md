@@ -13,12 +13,6 @@
   <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
 </p>
 
-<p align="center">
-  <a href="http://localhost:8501">
-    <img src="https://img.shields.io/badge/🔴_Live_Demo-Access_Dashboard-FF4B4B?style=for-the-badge" alt="Live Demo">
-  </a>
-</p>
-
 ---
 
 ## 🚀 Overview
@@ -128,7 +122,7 @@ EDA-Project/
 ## 👨‍💻 Author
 
 **Mohammed Shameer M**  
-[LinkedIn](https://linkedin.com/in/yourprofile) • [GitHub](https://github.com/yourusername)
+[LinkedIn](https://linkedin.com/in/mohammed-shemeer-aiml) • [GitHub](https://github.com/mushammedshemeer)
 
 ## 📄 License
 
