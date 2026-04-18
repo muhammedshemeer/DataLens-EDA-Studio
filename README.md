@@ -127,8 +127,8 @@ EDA-Project/
 
 ## 👨‍💻 Author
 
-**Your Name**  
-[LinkedIn](https://linkedin.com/in/yourprofile) • [GitHub](https://github.com/yourusername) • [Portfolio](https://yourportfolio.com)
+**Mohammed Shameer M**  
+[LinkedIn](https://linkedin.com/in/yourprofile) • [GitHub](https://github.com/yourusername)
 
 ## 📄 License
 
