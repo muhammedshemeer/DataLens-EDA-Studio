@@ -5,6 +5,12 @@
 </p>
 
 <p align="center">
+  <a href="https://datalens-eda-studio-ax3jbbtjengxj7kuagedpf.streamlit.app/" target="_blank">
+    <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit App">
+  </a>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Python-3.8+-blue.svg?logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/Streamlit-FF4B4B.svg?logo=streamlit&logoColor=white" alt="Streamlit">
   <img src="https://img.shields.io/badge/Pandas-150458.svg?logo=pandas&logoColor=white" alt="Pandas">
@@ -17,7 +23,9 @@
 
 ## 🚀 Overview
 
-**DataLens AI** is a powerful, no-code Exploratory Data Analysis (EDA) and data preprocessing tool built for data professionals. Skip the repetitive boilerplate scripts—upload any CSV and instantly uncover actionable insights through interactive charts, automated profiling, and smart data cleaning. 
+**DataLens AI** is a powerful, no-code Exploratory Data Analysis (EDA) and data preprocessing tool built for data professionals. Skip the repetitive boilerplate scripts—upload any CSV and instantly uncover actionable insights through interactive charts, automated profiling, and smart data cleaning.
+
+⚡ **Live Demo:** [datalens-eda-studio-ax3jbbtjengxj7kuagedpf.streamlit.app](https://datalens-eda-studio-ax3jbbtjengxj7kuagedpf.streamlit.app/)
 
 Review dataset health, apply dynamic preprocessing pipelines, and download ready-to-use clean data or full PDF reports with a single click, all from a premium, dark-themed dashboard.
 
