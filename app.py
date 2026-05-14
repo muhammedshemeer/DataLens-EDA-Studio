@@ -3,8 +3,6 @@ import pandas as pd
 import numpy as np
 import os
 from io import StringIO
-from ydata_profiling import ProfileReport
-import sweetviz as sv
 import warnings
 
 # Import our custom modules
@@ -481,13 +479,29 @@ else:
          if st.button("⚡ Generate Profiling Report", key='btn_prof'):
               with st.spinner("Generating report... this may take a moment"):
                    try:
-                       profile = ProfileReport(df, explorative=True, minimal=False)
+                       # Lazy Import ydata-profiling to speed up startup boot times
+                       from ydata_profiling import ProfileReport
+                       import gc
+                       
+                       # Safe Downsampling for Resource-Constrained Environments (1GB RAM)
+                       sample_df = df
+                       if len(df) > 10000:
+                           sample_df = df.sample(n=5000, random_state=42)
+                           st.warning("⚠️ Dataset is large. Profiling a representative sample of 5,000 rows to prevent Out-of-Memory crashes.")
+                           
+                       # Enforce minimal=True to prevent CPU/RAM exhaustion
+                       profile = ProfileReport(sample_df, explorative=True, minimal=True)
                        profile.to_file("profiling_report.html")
+                       
                        with open("profiling_report.html", "r", encoding='utf-8') as f:
                            html_report = f.read()
-                       st.components.v1.html(html_report, height=800, scrolling=True)
                        
+                       st.components.v1.html(html_report, height=800, scrolling=True)
                        st.download_button("📥 Download Profiling Report", html_report, "profiling_report.html", "text/html", use_container_width=True)
+                       
+                       # Explicitly clean up memory
+                       del profile
+                       gc.collect()
                    except Exception as e:
                        st.error(f"Error generating profiling report: {str(e)}")
 
@@ -502,13 +516,28 @@ else:
               if st.button("⚡ Generate SweetViz Report", key='btn_sv_single'):
                    with st.spinner("Generating SweetViz report..."):
                         try:
-                            # Using html export since it does not block the thread
-                            report = sv.analyze(df)
+                            # Lazy Import sweetviz
+                            import sweetviz as sv
+                            import gc
+                            
+                            # Safe Downsampling for Resource-Constrained Environments
+                            sample_df = df
+                            if len(df) > 10000:
+                                sample_df = df.sample(n=5000, random_state=42)
+                                st.warning("⚠️ Dataset is large. Profiling a representative sample of 5,000 rows to prevent Out-of-Memory crashes.")
+                                
+                            report = sv.analyze(sample_df)
                             report.show_html("sweetviz_report.html", open_browser=False)
+                            
                             with open("sweetviz_report.html", "r", encoding='utf-8') as f:
                                 html_sv = f.read()
+                            
                             st.components.v1.html(html_sv, height=800, scrolling=True)
                             st.download_button("📥 Download SweetViz Report", html_sv, "sweetviz_report.html", "text/html", use_container_width=True)
+                            
+                            # Explicitly clean up memory
+                            del report
+                            gc.collect()
                         except Exception as e:
                             st.error(f"Error generating SweetViz: {e}")
          else:
@@ -519,12 +548,36 @@ else:
                        st.success("Dataset B loaded")
                        if st.button("⚡ Compare Datasets", key='btn_sv_comp'):
                             with st.spinner("Generating Comparison..."):
-                                report = sv.compare([df, "Dataset A"], [df2, "Dataset B"])
-                                report.show_html("compare_report.html", open_browser=False)
-                                with open("compare_report.html", "r", encoding='utf-8') as f:
-                                    html_sv = f.read()
-                                st.components.v1.html(html_sv, height=800, scrolling=True)
-                                st.download_button("📥 Download Comparison Report", html_sv, "compare_report.html", "text/html", use_container_width=True)
+                                 try:
+                                     # Lazy Import sweetviz
+                                     import sweetviz as sv
+                                     import gc
+                                     
+                                     # Safe Downsampling for both datasets
+                                     sample_df1 = df
+                                     if len(df) > 10000:
+                                         sample_df1 = df.sample(n=5000, random_state=42)
+                                         st.warning("⚠️ Dataset A is large. Comparing a representative sample of 5,000 rows.")
+                                         
+                                     sample_df2 = df2
+                                     if len(df2) > 10000:
+                                         sample_df2 = df2.sample(n=5000, random_state=42)
+                                         st.warning("⚠️ Dataset B is large. Comparing a representative sample of 5,000 rows.")
+                                         
+                                     report = sv.compare([sample_df1, "Dataset A"], [sample_df2, "Dataset B"])
+                                     report.show_html("compare_report.html", open_browser=False)
+                                     
+                                     with open("compare_report.html", "r", encoding='utf-8') as f:
+                                         html_sv = f.read()
+                                     
+                                     st.components.v1.html(html_sv, height=800, scrolling=True)
+                                     st.download_button("📥 Download Comparison Report", html_sv, "compare_report.html", "text/html", use_container_width=True)
+                                     
+                                     # Explicitly clean up memory
+                                     del report
+                                     gc.collect()
+                                 except Exception as e:
+                                     st.error(f"Error comparing datasets: {e}")
                    except Exception as e:
                        st.error(f"Error loading second dataset or comparing: {e}")
 
